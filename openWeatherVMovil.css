@@ -1,267 +1,256 @@
-.graphic{
 
-  position: absolute;
-  width: 678px;
-  height: 300px;
-  left: -234px;
-  top: 0px;
 
-}
 
-.contenedorPanel{
-  position: absolute;
-  width: 375px;
-  height: 531px;
-  left: 0px;
-  top: 279px;
+@media all and (max-device-width: 480px){
+  body{
+    padding: 0%;
+    margin: 0%;
 
-  background: #FFFFFF;
-  box-shadow: 0px -16px 40px rgba(0, 0, 0, 0.2);
-}
+  }
 
-.date{
-  position: absolute;
-  width: 119px;
-  height: 34px;
-  left: 41px;
-  top: 294px;
+
+  .weatger-app-day{/* Weather-App-Day FRAME */
   
-  font-family: Barlow;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
-  text-align: center;
+    /* block-size: auto; */
+    position: absolute;
+    width: 120%;
+    height: 140%;
+    left: 0%;
+    background-color: #272086;
+    } 
+
   
-  color: #999999;
-}
 
-.city{
+
+  .graphic{
+
+    left: 0%;
+    position: absolute;
+    width: 90%; 
+    height: 28%;
+    left: 1%;
+    top: 0px;
+
+  }
+
+  .contenedorPanel{
+    position: absolute;
+    width: 80%;
+    height: 46%;
+    left: 6px;
+    top: 279px;
+
+    background: #FFFFFF;
+    border-radius: 5%;
+    box-shadow: 0px -16px 40px rgba(0, 0, 0, 0.2);
+  }
+
+  .date{
+    position: absolute;
+    width: 119px;
+    height: 34px;
+    left: 41px;
+    top: 294px;
+    
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    
+    color: #999999;
+  }
+
+  .city{
+    position: absolute;
+    width: 186px;
+    height: 48px;
+    left: 189px;
+    top: 279px;
+
+  }
+
+
+
+  /* /////////////////////////// */
+
+  .today-row-01-main {
+
+    position: absolute;
+    width: 282px;
+    height: 77px;
+    left: 45px;
+    top: 351px;
+  }
+
+  .sunnyImg{
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 47px;
+    top: 361px;
+  }
+  .sunnyText{
+    /* Sunny */
+
+
   position: absolute;
-  width: 186px;
-  height: 48px;
-  left: 189px;
-  top: 279px;
-
-}
-
-
-
-/* /////////////////////////// */
-
-.today-row-01-main {
-
-  position: absolute;
-  width: 282px;
-  height: 77px;
+  width: 45px;
+  height: 22px;
   left: 45px;
-  top: 351px;
-}
-
-.sunnyImg{
-
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  left: 47px;
-  top: 361px;
-}
-.sunnyText{
-  /* Sunny */
-
-
-position: absolute;
-width: 45px;
-height: 22px;
-left: 45px;
-top: 400px;
-
-font-family: Barlow;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height */
-
-text-align: center;
-letter-spacing: -0.05em;
-
-color: #000000;
-}
-
-.temperature{
-
-position: absolute;
-width: 87px;
-height: 77px;
-left: 156px;
-top: 351px;
-}
-
-.°c{
-  /* °C */
-
-
-position: absolute;
-width: 24px;
-height: 29px;
-left: 219px;
-top: 362px;
-
-font-family: Barlow;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 29px;
-/* identical to box height */
-
-
-color: #666666;
-
-}
-.text33{
-  position: absolute;
-  width: 62px;
-  height: 77px;
-  left: 156px;
-  top: 351px;
+  top: 400px;
 
   font-family: Barlow;
   font-style: normal;
-  font-weight: 300;
-  font-size: 64px;
-  line-height: 77px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
   /* identical to box height */
 
+  text-align: center;
   letter-spacing: -0.05em;
 
   color: #000000;
-}
-.text27{/* 27°C */
+  }
 
-
-  position: absolute;
-  width: 32px;
-  height: 19px;
-  left: 288px;
-  top: 399px;
-  
-  font-family: Barlow;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 19px;
-  
-  color: #666666;
-}
-
-.text35{/* 35°C */
-
+  .temperature{
 
   position: absolute;
-  width: 33px;
-  height: 19px;
-  left: 288px;
-  top: 368px;
-  
-  font-family: Barlow;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 19px;
-  
-  color: #666666;
-}
+  width: 87px;
+  height: 77px;
+  left: 156px;
+  top: 351px;
+  }
 
-
-/* /////////////////////////// */
-
-
-.today-row-02{
-  position: absolute;
-  width: 285px;
-  height: 69px;
-  left: 49px;
-  top: 468px;
-
-}
-
-.humidityImg{/* 027-humidity */
+  .°c{
+    /* °C */
 
 
   position: absolute;
   width: 24px;
-  height: 24px;
-  left: 55px;
-  top: 468px;
-}
+  height: 29px;
+  left: 219px;
+  top: 362px;
 
-.humidityText{/* Humidity */
-
-
-  position: absolute;
-  width: 37px;
-  height: 10px;
-  left: 49px;
-  top: 527px;
-  
   font-family: Barlow;
   font-style: normal;
   font-weight: 500;
-  font-size: 8px;
-  line-height: 10px;
+  font-size: 24px;
+  line-height: 29px;
   /* identical to box height */
-  
-  text-align: center;
-  letter-spacing: 0.1em;
-  
-  color: #999999;
-}
-
-.text49{/* 49% */
 
 
-  position: absolute;
-  width: 30px;
-  height: 19px;
-  left: 52px;
-  top: 504px;
-  
-  font-family: Barlow;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: -0.05em;
-  
-  color: #444444;}
+  color: #666666;
 
-.pressure{/* pressure */
-
-
-  position: absolute;
-  width: 67px;
-  height: 69px;
-  left: 154px;
-  top: 468px;
   }
-  .barometerImg{/* 050-barometer */
+  .text33{
+    position: absolute;
+    width: 62px;
+    height: 77px;
+    left: 156px;
+    top: 351px;
+
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 77px;
+    /* identical to box height */
+
+    letter-spacing: -0.05em;
+
+    color: #000000;
+  }
+  .text27{/* 27°C */
+
+
+    position: absolute;
+    width: 32px;
+    height: 19px;
+    left: 288px;
+    top: 399px;
+    
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #666666;
+  }
+
+  .text35{/* 35°C */
+
+
+    position: absolute;
+    width: 33px;
+    height: 19px;
+    left: 288px;
+    top: 368px;
+    
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #666666;
+  }
+
+
+  /* /////////////////////////// */
+
+
+  .today-row-02{
+    position: absolute;
+    width: 285px;
+    height: 69px;
+    left: 49px;
+    top: 468px;
+
+  }
+
+  .humidityImg{/* 027-humidity */
 
 
     position: absolute;
     width: 24px;
     height: 24px;
-    left: 175px;
+    left: 55px;
     top: 468px;
   }
 
-  .textmbar1007{/* 1,007mBar */
+  .humidityText{/* Humidity */
 
 
     position: absolute;
-    width: 67px;
+    width: 37px;
+    height: 10px;
+    left: 49px;
+    top: 527px;
+    
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.1em;
+    
+    color: #999999;
+  }
+
+  .text49{/* 49% */
+
+
+    position: absolute;
+    width: 30px;
     height: 19px;
-    left: 154px;
+    left: 52px;
     top: 504px;
     
     font-family: Barlow;
@@ -271,17 +260,334 @@ color: #666666;
     line-height: 19px;
     letter-spacing: -0.05em;
     
-    color: #444444;
-    }
+    color: #444444;}
 
-    .pressureText{/* Pressure */
+  .pressure{/* pressure */
+
+
+    position: absolute;
+    width: 67px;
+    height: 69px;
+    left: 154px;
+    top: 468px;
+    }
+    .barometerImg{/* 050-barometer */
 
 
       position: absolute;
-      width: 37px;
+      width: 24px;
+      height: 24px;
+      left: 175px;
+      top: 468px;
+    }
+
+    .textmbar1007{/* 1,007mBar */
+
+
+      position: absolute;
+      width: 67px;
+      height: 19px;
+      left: 154px;
+      top: 504px;
+      
+      font-family: Barlow;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: -0.05em;
+      
+      color: #444444;
+      }
+
+      .pressureText{/* Pressure */
+
+
+        position: absolute;
+        width: 37px;
+        height: 10px;
+        left: 169px;
+        top: 527px;
+        
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 8px;
+        line-height: 10px;
+        /* identical to box height */
+        
+        text-align: center;
+        letter-spacing: 0.1em;
+        
+        color: #999999;
+      }
+
+
+
+  /* /////////////////////////// */
+
+  .today-row-03{
+
+    position: absolute;
+    width: 287px;
+    height: 69px;
+    left: 41px;
+    top: 577px;
+  }
+  .sunrise{/* sunrise */
+
+
+    position: absolute;
+    width: 52px;
+    height: 69px;
+    left: 41px;
+    top: 577px;
+  }
+  .text6am{/* 6:03 AM */
+
+
+    position: absolute;
+    width: 52px;
+    height: 19px;
+    left: 41px;
+    top: 613px;
+    
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.05em;
+    
+    color: #444444;}
+
+    .sunsetImg{/* 007-sunset */
+
+
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      left: 55px;
+      top: 577px;}
+
+    .sunriseText{/* Sunrise */
+
+
+      position: absolute;
+      width: 32px;
       height: 10px;
-      left: 169px;
-      top: 527px;
+      left: 51px;
+      top: 636px;
+      
+      font-family: Barlow;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 8px;
+      line-height: 10px;
+      /* identical to box height */
+      
+      text-align: center;
+      letter-spacing: 0.1em;
+      
+      color: #999999;
+      }
+
+    .sunsetImg2{/* 008-sunrise */
+
+
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      left: 175px;
+      top: 577px;
+    }
+
+
+    .Pm7{/* 7:05 PM */
+
+
+      position: absolute;
+      width: 51px;
+      height: 19px;
+      left: 162px;
+      top: 613px;
+      
+      font-family: Barlow;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: -0.05em;
+      
+      color: #444444;
+      }
+
+
+  .sunnyText2{/* Sunset */
+
+
+    position: absolute;
+    width: 29px;
+    height: 10px;
+    left: 173px;
+    top: 636px;
+    
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.1em;
+    
+    color: #999999;
+  }
+
+  .dayTime{/* daytime */
+
+
+    position: absolute;
+    width: 41px;
+    height: 69px;
+    left: 287px;
+    top: 577px;
+    }
+
+    .san-clock{/* sand-clock */
+
+
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      left: 296px;
+      top: 577px;
+    }
+    .m13{
+      /* 13h 1m */
+
+
+      position: absolute;
+      width: 41px;
+      height: 19px;
+      left: 287px;
+      top: 613px;
+
+      font-family: Barlow;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: -0.05em;
+
+      color: #444444;
+
+    }
+
+    .dayTimeText{/* Daytime */
+
+
+      position: absolute;
+      width: 34px;
+      height: 10px;
+      left: 291px;
+      top: 636px;
+      
+      font-family: Barlow;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 8px;
+      line-height: 10px;
+      /* identical to box height */
+      
+      text-align: center;
+      letter-spacing: 0.1em;
+      
+      color: #999999;
+      }
+
+
+  .today-row-04{
+
+    position: absolute;
+    width: 440px;
+    height: 101px;
+    left: 19px;
+    top: 670px;
+  }
+
+  .mon{
+    position: absolute;
+    width: 95px;
+    height: 101px;
+    left: 19px;
+    top: 670px;
+  }
+  .rectanguleMon{/* Rectangle */
+
+
+    position: absolute;
+    width: 95px;
+    height: 101px;
+    left: 19px;
+    top: 670px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+  }
+
+
+  .mon21{/* Mon, 21 */
+
+
+    position: absolute;
+    width: 46px;
+    height: 19px;
+    left: 43px;
+    top: 722px;
+    
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.05em;
+    
+    color: #444444;
+  }
+
+  .sunny007{/* 007-sunny-1 */
+
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 55px;
+    top: 686px;
+    }
+
+    .union{/* Union */
+
+
+      position: absolute;
+      left: 0%;
+      right: 0%;
+      top: 0%;
+      bottom: 0%;
+      
+      background: #AAAAAA;
+    }
+
+    .°26{/* 26°C */
+
+
+      position: absolute;
+      width: 19px;
+      height: 10px;
+      left: 69px;
+      top: 745px;
       
       font-family: Barlow;
       font-style: normal;
@@ -296,95 +602,59 @@ color: #666666;
       color: #999999;
     }
 
+    .°35{/* 35°C */
 
 
-/* /////////////////////////// */
-
-.today-row-03{
-
-  position: absolute;
-  width: 287px;
-  height: 69px;
-  left: 41px;
-  top: 577px;
-}
-.sunrise{/* sunrise */
-
-
-  position: absolute;
-  width: 52px;
-  height: 69px;
-  left: 41px;
-  top: 577px;
-}
-.text6am{/* 6:03 AM */
+      position: absolute;
+      width: 19px;
+      height: 10px;
+      left: 37px;
+      top: 745px;
+      
+      font-family: Barlow;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 8px;
+      line-height: 10px;
+      /* identical to box height */
+      
+      text-align: center;
+      letter-spacing: 0.1em;
+      
+      color: #999999;
+      }
 
 
-  position: absolute;
-  width: 52px;
-  height: 19px;
-  left: 41px;
-  top: 613px;
-  
-  font-family: Barlow;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: -0.05em;
-  
-  color: #444444;}
+  .tue{
+    position: absolute;
+    width: 95px;
+    height: 101px;
+    left: 134px;
+    top: 670px;
 
-  .sunsetImg{/* 007-sunset */
+  }
+  .rectanguleTue{/* Rectangle */
 
 
     position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 55px;
-    top: 577px;}
-
-  .sunriseText{/* Sunrise */
-
-
-    position: absolute;
-    width: 32px;
-    height: 10px;
-    left: 51px;
-    top: 636px;
+    width: 95px;
+    height: 101px;
+    left: 134px;
+    top: 670px;
     
-    font-family: Barlow;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 8px;
-    line-height: 10px;
-    /* identical to box height */
-    
-    text-align: center;
-    letter-spacing: 0.1em;
-    
-    color: #999999;
-    }
-
-  .sunsetImg2{/* 008-sunrise */
-
-
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 175px;
-    top: 577px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
   }
 
-
-  .Pm7{/* 7:05 PM */
+  .tueText{/* Tue, 22 */
 
 
     position: absolute;
-    width: 51px;
+    width: 46px;
     height: 19px;
-    left: 162px;
-    top: 613px;
+    left: 158px;
+    top: 722px;
     
     font-family: Barlow;
     font-style: normal;
@@ -394,173 +664,25 @@ color: #666666;
     letter-spacing: -0.05em;
     
     color: #444444;
-    }
-
-
-.sunnyText2{/* Sunset */
-
-
-  position: absolute;
-  width: 29px;
-  height: 10px;
-  left: 173px;
-  top: 636px;
-  
-  font-family: Barlow;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 8px;
-  line-height: 10px;
-  /* identical to box height */
-  
-  text-align: center;
-  letter-spacing: 0.1em;
-  
-  color: #999999;
-}
-
-.dayTime{/* daytime */
-
-
-  position: absolute;
-  width: 41px;
-  height: 69px;
-  left: 287px;
-  top: 577px;
   }
 
-  .san-clock{/* sand-clock */
+  .tueImg{/* 014-cloudy-2 */
 
 
     position: absolute;
     width: 24px;
     height: 24px;
-    left: 296px;
-    top: 577px;
-  }
-  .m13{
-    /* 13h 1m */
-
-
-    position: absolute;
-    width: 41px;
-    height: 19px;
-    left: 287px;
-    top: 613px;
-
-    font-family: Barlow;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: -0.05em;
-
-    color: #444444;
-
-  }
-
-  .dayTimeText{/* Daytime */
-
-
-    position: absolute;
-    width: 34px;
-    height: 10px;
-    left: 291px;
-    top: 636px;
-    
-    font-family: Barlow;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 8px;
-    line-height: 10px;
-    /* identical to box height */
-    
-    text-align: center;
-    letter-spacing: 0.1em;
-    
-    color: #999999;
+    left: 170px;
+    top: 686px;
     }
 
-
-.today-row-04{
-
-  position: absolute;
-  width: 440px;
-  height: 101px;
-  left: 19px;
-  top: 670px;
-}
-
-.mon{
-  position: absolute;
-  width: 95px;
-  height: 101px;
-  left: 19px;
-  top: 670px;
-}
-.rectanguleMon{/* Rectangle */
-
-
-  position: absolute;
-  width: 95px;
-  height: 101px;
-  left: 19px;
-  top: 670px;
-  
-  background: #FFFFFF;
-  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
-  border-radius: 16px;
-}
-
-
-.mon21{/* Mon, 21 */
-
-
-  position: absolute;
-  width: 46px;
-  height: 19px;
-  left: 43px;
-  top: 722px;
-  
-  font-family: Barlow;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: -0.05em;
-  
-  color: #444444;
-}
-
-.sunny007{/* 007-sunny-1 */
-
-
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  left: 55px;
-  top: 686px;
-  }
-
-  .union{/* Union */
-
-
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-    
-    background: #AAAAAA;
-  }
-
-  .°26{/* 26°C */
+  .°27{/* 27°C */
 
 
     position: absolute;
     width: 19px;
     height: 10px;
-    left: 69px;
+    left: 184px;
     top: 745px;
     
     font-family: Barlow;
@@ -582,7 +704,7 @@ color: #666666;
     position: absolute;
     width: 19px;
     height: 10px;
-    left: 37px;
+    left: 152px;
     top: 745px;
     
     font-family: Barlow;
@@ -596,207 +718,113 @@ color: #666666;
     letter-spacing: 0.1em;
     
     color: #999999;
-    }
-
-
-.tue{
-  position: absolute;
-  width: 95px;
-  height: 101px;
-  left: 134px;
-  top: 670px;
-
-}
-.rectanguleTue{/* Rectangle */
-
-
-  position: absolute;
-  width: 95px;
-  height: 101px;
-  left: 134px;
-  top: 670px;
-  
-  background: #FFFFFF;
-  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
-  border-radius: 16px;
-}
-
-.tueText{/* Tue, 22 */
-
-
-  position: absolute;
-  width: 46px;
-  height: 19px;
-  left: 158px;
-  top: 722px;
-  
-  font-family: Barlow;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: -0.05em;
-  
-  color: #444444;
-}
-
-.tueImg{/* 014-cloudy-2 */
-
-
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  left: 170px;
-  top: 686px;
   }
 
-.°27{/* 27°C */
+
+  .wed{
+    position: absolute;
+    width: 95px;
+    height: 101px;
+    left: 249px;
+    top: 670px;
+
+  }
+  .rectanguleWed{/* Rectangle */
 
 
-  position: absolute;
-  width: 19px;
-  height: 10px;
-  left: 184px;
-  top: 745px;
-  
-  font-family: Barlow;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 8px;
-  line-height: 10px;
-  /* identical to box height */
-  
-  text-align: center;
-  letter-spacing: 0.1em;
-  
-  color: #999999;
-}
+    position: absolute;
+    width: 95px;
+    height: 101px;
+    left: 249px;
+    top: 670px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+  }
 
-.°35{/* 35°C */
+  .wed22Text{/* Wed, 22 */
 
 
-  position: absolute;
-  width: 19px;
-  height: 10px;
-  left: 152px;
-  top: 745px;
-  
-  font-family: Barlow;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 8px;
-  line-height: 10px;
-  /* identical to box height */
-  
-  text-align: center;
-  letter-spacing: 0.1em;
-  
-  color: #999999;
-}
+    position: absolute;
+    width: 51px;
+    height: 19px;
+    left: 271px;
+    top: 722px;
+    
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.05em;
+    
+    color: #444444;
+  }
+
+  .hazyImg{/* 016-hazy */
 
 
-.wed{
-  position: absolute;
-  width: 95px;
-  height: 101px;
-  left: 249px;
-  top: 670px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 285px;
+    top: 686px;
+  }
 
-}
-.rectanguleWed{/* Rectangle */
-
-
-  position: absolute;
-  width: 95px;
-  height: 101px;
-  left: 249px;
-  top: 670px;
-  
-  background: #FFFFFF;
-  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
-  border-radius: 16px;
-}
-
-.wed22Text{/* Wed, 22 */
+  .°29{/* 29°C */
 
 
-  position: absolute;
-  width: 51px;
-  height: 19px;
-  left: 271px;
-  top: 722px;
-  
-  font-family: Barlow;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: -0.05em;
-  
-  color: #444444;
-}
+    position: absolute;
+    width: 19px;
+    height: 10px;
+    left: 299px;
+    top: 745px;
+    
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.1em;
+    
+    color: #999999;
+  }
 
-.hazyImg{/* 016-hazy */
-
-
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  left: 285px;
-  top: 686px;
-}
-
-.°29{/* 29°C */
+  .°34{/* 34°C */
 
 
-  position: absolute;
-  width: 19px;
-  height: 10px;
-  left: 299px;
-  top: 745px;
-  
-  font-family: Barlow;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 8px;
-  line-height: 10px;
-  /* identical to box height */
-  
-  text-align: center;
-  letter-spacing: 0.1em;
-  
-  color: #999999;
-}
-
-.°34{/* 34°C */
-
-
-  position: absolute;
-  width: 20px;
-  height: 10px;
-  left: 266px;
-  top: 745px;
-  
-  font-family: Barlow;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 8px;
-  line-height: 10px;
-  /* identical to box height */
-  
-  text-align: center;
-  letter-spacing: 0.1em;
-  
-  color: #999999;
-}
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    left: 266px;
+    top: 745px;
+    
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.1em;
+    
+    color: #999999;
+  }
 
 
 
-.thu{
-  /* no se llega a apreciar */
-  position: absolute;
-  width: 95px;
-  height: 101px;
-  left: 364px;
-  top: 670px;
+  .thu{
+    /* no se llega a apreciar */
+    position: absolute;
+    width: 95px;
+    height: 101px;
+    left: 364px;
+    top: 670px;
+  }
+
 }
