@@ -1,6 +1,4 @@
 
-
-
 @media all and (max-device-width: 480px){
   body{
     padding: 0%;
@@ -50,7 +48,7 @@
     width: 119px;
     height: 34px;
     left: 41px;
-    top: 294px;
+    top: 1%;
     
     font-family: Barlow;
     font-style: normal;
@@ -64,34 +62,71 @@
 
   .city{
     position: absolute;
-    width: 186px;
-    height: 48px;
-    left: 189px;
-    top: 279px;
+    width: 38%;
+    height: 15%;
+    left: 173px;
+    top: 1%;
+
+    background: rgba(13, 159, 234, 0.08);
+
+  }
+  .imgIconoUbicacion{
+    margin-left: 86%;
+    margin-top: 10%;
+  }
+
+  .location{
+    /* location */
+
+
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 20%;
+    margin-left: -1%;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #0DA0EA;
+
+  }
+
+  .locationImg{
+    position: absolute;
+    width: 10%;
+    height: 5%;
+    margin-left: 9%;
+    top: 297px;
 
   }
 
 
-
   /* /////////////////////////// */
 
-  .today-row-01-main {
+  .panelConContenidoN1{
 
     position: absolute;
-    width: 282px;
-    height: 77px;
-    left: 45px;
-    top: 351px;
+    width: 211%;
+    height: 110%;
+    left: -110%;
+    top: 120%;
+    background-color: #0DA0EA;
   }
 
   .sunnyImg{
 
     position: absolute;
-    width: 40px;
-    height: 40px;
-    left: 47px;
-    top: 361px;
+    top: auto;
+    width: 30%;
+    width: 24%;
+    top: 0%;
+
   }
+
   .sunnyText{
     /* Sunny */
 
@@ -99,8 +134,9 @@
   position: absolute;
   width: 45px;
   height: 22px;
-  left: 45px;
-  top: 400px;
+  left: 4%;
+  top: 70%;
+
 
   font-family: Barlow;
   font-style: normal;
@@ -146,22 +182,23 @@
 
   }
   .text33{
-    position: absolute;
-    width: 62px;
-    height: 77px;
-    left: 156px;
-    top: 351px;
+    
+  position: absolute;
+  width: 62px;
+  height: 77px;
+  left: 40%;
+  top: 0%;
 
-    font-family: Barlow;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 64px;
-    line-height: 77px;
-    /* identical to box height */
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 77px;
+  /* identical to box height */
 
-    letter-spacing: -0.05em;
+  letter-spacing: -0.05em;
 
-    color: #000000;
+  color: #000000;
   }
   .text27{/* 27°C */
 
@@ -169,8 +206,8 @@
     position: absolute;
     width: 32px;
     height: 19px;
-    left: 288px;
-    top: 399px;
+    left: 80%;
+    top: 15%;
     
     font-family: Barlow;
     font-style: normal;
@@ -187,8 +224,8 @@
     position: absolute;
     width: 33px;
     height: 19px;
-    left: 288px;
-    top: 368px;
+    left: 80%;
+    top: 50%;
     
     font-family: Barlow;
     font-style: normal;
@@ -203,38 +240,57 @@
   /* /////////////////////////// */
 
 
-  .today-row-02{
+  .panelConContenidoN2{
     position: absolute;
-    width: 285px;
-    height: 69px;
-    left: 49px;
-    top: 468px;
+    width: 211%;
+    height: 110%;
+    left: -110%;
+    top: 280%;
+    background-color: #0DA0EA;
 
   }
 
-  .humidityImg{/* 027-humidity */
+  .imghumidity{/* 027-humidity */
 
 
     position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 55px;
-    top: 468px;
+    width: 25%;
+    height: 64%;
+    left: 0%;
+    top: 0%;
+  }
+  .humidityText1{/* Humidity */
+
+    position: absolute;
+    width: 30px;
+    height: 19px;
+    left: 8%;
+    top: 37%;
+
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.05em;
+
+    color: #444444;
+
   }
 
-  .humidityText{/* Humidity */
+  .humidityText2{/* Humidity */
 
 
     position: absolute;
     width: 37px;
     height: 10px;
-    left: 49px;
-    top: 527px;
+    left: 5%;
+    top: 67%;
     
     font-family: Barlow;
     font-style: normal;
     font-weight: 500;
-    font-size: 8px;
+    font-size: 9px;
     line-height: 10px;
     /* identical to box height */
     
@@ -271,14 +327,14 @@
     left: 154px;
     top: 468px;
     }
-    .barometerImg{/* 050-barometer */
+    .imgBarometer{/* 050-barometer */
 
 
       position: absolute;
-      width: 24px;
-      height: 24px;
-      left: 175px;
-      top: 468px;
+      width: 24%;
+      height: 69%;
+      left: 40%;
+      top: 0%;
     }
 
     .textmbar1007{/* 1,007mBar */
@@ -287,16 +343,16 @@
       position: absolute;
       width: 67px;
       height: 19px;
-      left: 154px;
-      top: 504px;
-      
+      left: 40%;
+      top: 25%;
+
       font-family: Barlow;
       font-style: normal;
       font-weight: 500;
       font-size: 16px;
       line-height: 19px;
       letter-spacing: -0.05em;
-      
+
       color: #444444;
       }
 
@@ -306,36 +362,98 @@
         position: absolute;
         width: 37px;
         height: 10px;
-        left: 169px;
-        top: 527px;
-        
+        left: 45%;
+        top: 55%;
+
         font-family: Barlow;
         font-style: normal;
         font-weight: 500;
-        font-size: 8px;
+        font-size: 9px;
         line-height: 10px;
         /* identical to box height */
-        
+
         text-align: center;
         letter-spacing: 0.1em;
-        
+
         color: #999999;
       }
+
+      .imgRafagas{
+
+        /* 001-wind-1 */
+        position: absolute;
+        width: 20%;
+        height: 64%;
+        left: 79%;
+        top: 0%;
+      }
+      /* 23 km/h */
+
+      .texRafagas{
+
+        position: absolute;
+        width: 53px;
+        height: 19px;
+        left: 80%;
+        top: 62%;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: -0.05em;
+
+        color: #444444;
+      }
+
+      .texRafagas2{
+
+        position: absolute;
+        width: 10%;
+        height: 20%;
+        left: 83%;
+        top: 85%;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 9px;
+        line-height: 10px;
+        /* identical to box height */
+
+        text-align: center;
+        letter-spacing: 0.1em;
+
+        color: #999999;
+
+      }
+              
 
 
 
   /* /////////////////////////// */
 
-  .today-row-03{
+  .panelConContenidoN3{
 
     position: absolute;
-    width: 287px;
-    height: 69px;
-    left: 41px;
-    top: 577px;
+    width: 211%;
+    height: 110%;
+    left: -110%;
+    top: 430%;
+    background-color: #0DA0EA;
   }
-  .sunrise{/* sunrise */
 
+  .imgSunset{
+    /* 007-sunset */
+      position: absolute;
+      width: 25%;
+      height: 54%;
+      left: 0%;
+      top: 0%;
+  }
+
+  .sunrise{/* sunrise */
 
     position: absolute;
     width: 52px;
@@ -343,46 +461,40 @@
     left: 41px;
     top: 577px;
   }
+
   .text6am{/* 6:03 AM */
 
 
     position: absolute;
-    width: 52px;
-    height: 19px;
-    left: 41px;
-    top: 613px;
-    
+    width: 55%;
+    height: 15%;
+    left: 5%;
+    top: 53%;
+
     font-family: Barlow;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 19px;
     letter-spacing: -0.05em;
-    
-    color: #444444;}
 
-    .sunsetImg{/* 007-sunset */
+    color: #444444;
+}
 
-
-      position: absolute;
-      width: 24px;
-      height: 24px;
-      left: 55px;
-      top: 577px;}
 
     .sunriseText{/* Sunrise */
 
 
       position: absolute;
-      width: 32px;
-      height: 10px;
-      left: 51px;
-      top: 636px;
+      width: 10%;
+      height: 20%;
+      left: 8%;
+      top: 77%;
       
       font-family: Barlow;
       font-style: normal;
       font-weight: 500;
-      font-size: 8px;
+      font-size: 9px;
       line-height: 10px;
       /* identical to box height */
       
@@ -392,57 +504,55 @@
       color: #999999;
       }
 
-    .sunsetImg2{/* 008-sunrise */
+    .imgSunset2{/* 008-sunrise */
 
 
       position: absolute;
-      width: 24px;
-      height: 24px;
-      left: 175px;
-      top: 577px;
+      width: 25%;
+      height: 54%;
+      left: 40%;
+      top: 0%;
     }
 
 
     .Pm7{/* 7:05 PM */
 
-
       position: absolute;
-      width: 51px;
-      height: 19px;
-      left: 162px;
-      top: 613px;
-      
+      width: 55%;
+      height: 15%;
+      left: 45%;
+      top: 53%;
+
       font-family: Barlow;
       font-style: normal;
       font-weight: 500;
-      font-size: 16px;
+      font-size: 15px;
       line-height: 19px;
       letter-spacing: -0.05em;
-      
+
       color: #444444;
       }
 
 
   .sunnyText2{/* Sunset */
 
-
-    position: absolute;
-    width: 29px;
-    height: 10px;
-    left: 173px;
-    top: 636px;
-    
-    font-family: Barlow;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 8px;
-    line-height: 10px;
-    /* identical to box height */
-    
-    text-align: center;
-    letter-spacing: 0.1em;
-    
-    color: #999999;
+      position: absolute;
+      width: 10%;
+      height: 20%;
+      left: 48%;
+      top: 77%;
+      
+      font-family: Barlow;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 9px;
+      line-height: 10px;
+      /* identical to box height */
+      
+      text-align: center;
+      letter-spacing: 0.1em;
+      
+      color: #999999;
   }
 
   .dayTime{/* daytime */
@@ -459,25 +569,24 @@
 
 
       position: absolute;
-      width: 24px;
-      height: 24px;
-      left: 296px;
-      top: 577px;
+      width: 25%;
+      height: 54%;
+      left: 75%;
+      top: 0%;
     }
     .m13{
       /* 13h 1m */
 
-
       position: absolute;
-      width: 41px;
-      height: 19px;
-      left: 287px;
-      top: 613px;
+      width: 55%;
+      height: 15%;
+      left: 80%;
+      top: 53%;
 
       font-family: Barlow;
       font-style: normal;
       font-weight: 500;
-      font-size: 16px;
+      font-size: 15px;
       line-height: 19px;
       letter-spacing: -0.05em;
 
