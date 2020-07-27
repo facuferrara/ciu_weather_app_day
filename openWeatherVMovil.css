@@ -23,9 +23,9 @@
   .imgGraphic{
 
     position: absolute;
-    width: 83%; 
+    width: 92%; 
     height: 28%;
-    left: 1%;
+    left: 0%;
     top: 0px;
 
   }
@@ -502,7 +502,7 @@
     position: absolute;
     width: 25%;
     height: 54%;
-    left: 40%;
+    left: 39%;
     top: 0%;
   }
 
@@ -562,7 +562,7 @@
     position: absolute;
     width: 25%;
     height: 54%;
-    left: 75%;
+    left: 77%;
     top: 0%;
   }
 
@@ -572,7 +572,7 @@
     position: absolute;
     width: 55%;
     height: 15%;
-    left: 80%;
+    left: 83%;
     top: 53%;
 
     font-family: Barlow;
@@ -592,7 +592,7 @@
     position: absolute;
     width: 10%;
     height: 20%;
-    left: 81%;
+    left: 84%;
     top: 80%;
     
     font-family: Barlow;
