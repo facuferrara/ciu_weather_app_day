@@ -177,7 +177,7 @@
     color: #666666;
 
   }
-  .text33{
+  .temperatura{
     
     position: absolute;
     width: 62px;
@@ -333,7 +333,7 @@
     top: 0%;
   }
 
-  .textmbar1007{/* 1,007mBar */
+  .textPressure{/* 1,007mBar */
 
     position: absolute;
     width: 67px;
@@ -383,7 +383,7 @@
   }
       
 
-  .texRafagas{
+  .textWind{
     /* 23 km/h */
 
     position: absolute;
@@ -402,7 +402,7 @@
     color: #444444;
   }
 
-  .texRafagas2{
+  .textWind2{
 
     position: absolute;
     width: 10%;
@@ -455,7 +455,7 @@
     top: 577px;
   }
 
-  .text6am{/* 6:03 AM */
+  .sunriseHs{/* 6:03 AM */
 
 
     position: absolute;
@@ -507,7 +507,7 @@
   }
 
 
-  .Pm7{/* 7:05 PM */
+  .sunsetHs{/* 7:05 PM */
 
     position: absolute;
     width: 55%;
@@ -566,7 +566,7 @@
     top: 0%;
   }
 
-  .m13{
+  .dayTimeHs{
     /* 13h 1m */
 
     position: absolute;

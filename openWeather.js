@@ -6,8 +6,9 @@
 var contenidoATraer = document.querySelector('#contenido')
 
 function traer(){
-  fetch('textoClima.txt')
+  fetch('https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}')
   .then(respuesta => respuesta.json())
-  .then(data=> console.log(data))
+  .then(data =>
+     console.log(data.lat))
   
 }
