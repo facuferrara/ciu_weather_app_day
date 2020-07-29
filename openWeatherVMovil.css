@@ -42,7 +42,7 @@
     box-shadow: 0px -16px 40px rgba(0, 0, 0, 0.2);
   }
 
-  .date{
+  #date{
     position: absolute;
     width: 119px;
     height: 34px;
@@ -117,7 +117,7 @@
     background-color: #FFFFFF;
   }
 
-  .sunnyImg{
+  #sunnyImg{
 
     position: absolute;
     top: auto;
@@ -127,7 +127,7 @@
 
   }
 
-  .sunnyText{
+  #sunnyText{
     /* Sunny */
 
 
@@ -163,21 +163,21 @@
   .°c{
     /* °C */
     position: absolute;
-    width: 24px;
-    height: 29px;
-    left: 219px;
-    top: 362px;
+    width: 15%;
+    height: 35%;
+    left: 55%;
+    top: 14%;
 
     font-family: Barlow;
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 10%;
     line-height: 29px;
     /* identical to box height */
     color: #666666;
 
   }
-  .temperatura{
+  #temperatura{
     
     position: absolute;
     width: 62px;
@@ -196,7 +196,27 @@
 
     color: #000000;
   }
-  .text27{/* 27°C */
+  #°c{
+    position: absolute;
+    width: 62px;
+    height: 77px;
+    left: 54%;
+    top: 0%;
+
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 77px;
+    /* identical to box height */
+
+    letter-spacing: -0.05em;
+
+    color: #000000;
+
+  }
+
+  #tempMax{/* 27°C */
 
     position: absolute;
     width: 32px;
@@ -213,7 +233,7 @@
     color: #666666;
   }
 
-  .text35{/* 35°C */
+  #tempMin{/* 35°C */
 
 
     position: absolute;
@@ -255,7 +275,8 @@
     left: 0%;
     top: 0%;
   }
-  .humidityText1{/* Humidity */
+
+  #humidityText1{/* Humidity */
 
     position: absolute;
     width: 30px;
@@ -281,7 +302,7 @@
     width: 37px;
     height: 10px;
     left: 5%;
-    top: 75%;
+    top: 77%;
     
     font-family: Barlow;
     font-style: normal;
@@ -333,7 +354,7 @@
     top: 0%;
   }
 
-  .textPressure{/* 1,007mBar */
+  #textPressure{/* 1,007mBar */
 
     position: absolute;
     width: 67px;
@@ -357,7 +378,7 @@
     width: 37px;
     height: 10px;
     left: 47%;
-    top: 67%;
+    top: 69%;
 
     font-family: Barlow;
     font-style: normal;
@@ -383,7 +404,7 @@
   }
       
 
-  .textWind{
+  #textWind{
     /* 23 km/h */
 
     position: absolute;
@@ -408,7 +429,7 @@
     width: 10%;
     height: 20%;
     left: 85%;
-    top: 83%;
+    top: 85%;
 
     font-family: Barlow;
     font-style: normal;
@@ -455,13 +476,13 @@
     top: 577px;
   }
 
-  .sunriseHs{/* 6:03 AM */
+  #sunriseHs{/* 6:03 AM */
 
 
     position: absolute;
     width: 55%;
     height: 15%;
-    left: 5%;
+    left: 8%;
     top: 53%;
 
     font-family: Barlow;
@@ -481,7 +502,7 @@
     position: absolute;
     width: 10%;
     height: 20%;
-    left: 8%;
+    left: 7%;
     top: 77%;
     
     font-family: Barlow;
@@ -502,17 +523,17 @@
     position: absolute;
     width: 25%;
     height: 54%;
-    left: 39%;
+    left: 36%;
     top: 0%;
   }
 
 
-  .sunsetHs{/* 7:05 PM */
+  #sunsetHs{/* 7:05 PM */
 
     position: absolute;
     width: 55%;
     height: 15%;
-    left: 45%;
+    left: 46%;
     top: 53%;
 
     font-family: Barlow;
@@ -531,7 +552,7 @@
     position: absolute;
     width: 10%;
     height: 20%;
-    left: 48%;
+    left: 45%;
     top: 77%;
     
     font-family: Barlow;
@@ -566,13 +587,13 @@
     top: 0%;
   }
 
-  .dayTimeHs{
+  #dayTimeHs{
     /* 13h 1m */
 
     position: absolute;
     width: 55%;
     height: 15%;
-    left: 83%;
+    left: 87%;
     top: 53%;
 
     font-family: Barlow;
@@ -592,8 +613,8 @@
     position: absolute;
     width: 10%;
     height: 20%;
-    left: 84%;
-    top: 80%;
+    left: 85%;
+    top: 78%;
     
     font-family: Barlow;
     font-style: normal;

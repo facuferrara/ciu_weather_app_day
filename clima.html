@@ -12,41 +12,44 @@
     <img class="imgGraphic" src="imagenes/graphicImg.png">
     <!-- Contenedor -->
     <div class="contenedorPanel">
-      <h1 class="date">Sunday, 19 May 2019
+      <h1 id="date">Sunday, 19 May 2019
         4:30PM</h1>
       <div class="city">
       <h2 class="location">Tessei, Buenos Aires</h2>
+      <!-- Tessei, Buenos Aires -->
       <img class="imgIconoUbicacion" src="imagenes/mini icono ubicacion.png">
       <!-- Panel N1 -->
         <div class="panelConContenidoN1">
-          <img class="sunnyImg" src="imagenes/sunnyImg.png">
-          <div class="sunnyText">Sunny</div>
-          <div class="temperatura">33°c</div>
-          <div class="text27">35°c</div>
-          <div class="text35">27°c</div>
+          <img id="sunnyImg" src="imagenes/sunnyImg.png">
+          <div id="sunnyText">Sunny</div>
+          <div id="temperatura"></div>
+          <img class="°c" src="imagenes/°c.png">
+          <div id="tempMax">35°c</div>
+          <div id="tempMin">27°c</div>
         </div>
       <!-- Panel N2 -->  
         <div class="panelConContenidoN2">
           <img class="imghumidity" src="imagenes/humidityImg.png">
-          <h3 class="humidityText1">49%</h3>
+          <h3 id="humidityText1">33%</h3>
+          <!-- 49% -->
           <h4 class="humidityText2">Humidicity</h4>
           <img class="imgBarometer" src="imagenes/pressureImg.png">
-          <h5 class="textPressure">1,007mBar</h5>
+          <h5 id="textPressure">1,007mBar</h5>
           <h6 class="pressureText">Pressure</h6>
           <img class="imgRafagas" src="imagenes/windImg.png">
-          <h7 class="textWind">23km/h</h7>
+          <h7 id="textWind">23km/h</h7>
           <h8 class="textWind2">Wind</h8>
         </div>
       <!-- Panel N3 -->
         <div class="panelConContenidoN3">
           <img class="imgSunset" src="imagenes/sunriseImg.png">
-          <h9 class="sunriseHs">6:03 AM</h9>
+          <h9 id="sunriseHs">6:03 AM</h9>
           <h10 class="sunriseText">Sunrise</h10>
           <img class="imgSunset2" src="imagenes/sunsetImg.png">
-          <h10 class="sunsetHs">7:05 PM</h10>
+          <h10 id="sunsetHs">7:05 PM</h10>
           <h11 class="sunnyText2">Sunset</h11>
           <img class="san-clock" src="imagenes/dayTimeImg.png">
-          <h11 class="dayTimeHs">13h 1m</h11>
+          <h11 id="dayTimeHs">13h 1m</h11>
           <h12 class="dayTimeText">Daytime</h12> 
         </div>
       <!-- Panel N4 -->
@@ -79,5 +82,5 @@
     </div>
   </div>
 </body>
-<script src="clima.js"></script>  
+  <script src="obtenerClima.js"></script>
 </html>
