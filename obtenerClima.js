@@ -52,24 +52,20 @@ function obtenerElClimaActual() {
       const daytimeActual= new Date(informacionActual.current.dt);
       document.getElementById("dayTimeHs").innerHTML = `${daytimeActual.getHours()}`;
 
-      //Siguiente dia
-      const daytimeMon= new Date(informacionActual.current.dt);
-      document.getElementById("mon21").innerHTML =  datoActual.toString().substr(0,10);
 
-
-      //Actualizacion de Dias  dentro de los proximos 4 
+      //Actualizacion dentro de los proximos 4 dias.
         const mañana = new Date(datoActual);
           for ( i = 1; i <= 4; i ++) { 
               
-              document.getElementById(`tempMax${i}`).innerHTML = `${parseInt(informacionActual.daily[i].temp.max)}`;
-              document.getElementById(`tempMin${i}`).innerHTML = `${parseInt(informacionActual.daily[i].temp.min)}`;
+              document.getElementById(`tempMax${i}`).innerHTML = `${parseInt(informacionActual.daily[i].temp.max)}°C`;
+              document.getElementById(`tempMin${i}`).innerHTML = `${parseInt(informacionActual.daily[i].temp.min)}°C`;
               
               
               mañana.setDate(datoActual.getDate() + i);//Se actualizan los dias
-              document.getElementById(`currentHour${i}`).innerHTML = `
-                ${mañana.toString().substr(0,3)},
+              document.getElementById(`date${i}`).innerHTML = `
+                ${mañana.toString().substr(0,4)},
                 ${mañana.toString().substr(7,3)}`
-              
+              //Recorto los strings para tener la informacion igual que en el diseño web
         }
 
       return informacionActual.daily[0] //Devuelve dia actual.
