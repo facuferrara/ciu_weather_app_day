@@ -606,6 +606,22 @@
     color: #444444;
 
   }
+  #dayTimeHs2{
+    position: absolute;
+    width: 55%;
+    height: 15%;
+    left: 92%;
+    top: 53%;
+
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: -0.05em;
+
+    color: #444444;
+  }
 
   .dayTimeText{
     /* Daytime */
@@ -678,7 +694,7 @@
       top: 0%;
     }
 
-    .mon21{/* Mon, 21 */
+    #mon21{/* Mon, 21 */
 
 
       position: absolute;
@@ -709,7 +725,7 @@
     transform: rotate(0.11deg);
   }
 
-  .tempIzquierda{/* 35°C */
+  #tempIzquierda{/* 35°C */
 
     position: absolute;
     width: 10%;
@@ -730,7 +746,7 @@
     color: #999999;
     }
 
-  .tempDerecha{/* 26°C */
+  #tempDerecha{/* 26°C */
 
 
     position: absolute;
@@ -804,7 +820,7 @@
     transform: rotate(0.11deg);
   }
 
-  .tueText{/* Tue, 22 */
+  #tueText{/* Tue, 22 */
 
 
     position: absolute;
@@ -831,7 +847,7 @@
     top: 10%;
     }
 
-  .tueTempIzquierda{/* 35°C */
+  #tueTempIzquierda{/* 35°C */
 
     position: absolute;
     width: 10%;
@@ -852,7 +868,7 @@
     color: #999999;
     }
 
-  .tueTempDerecha{/* 26°C */
+  #tueTempDerecha{/* 26°C */
 
     position: absolute;
     width: 10%;
@@ -899,7 +915,7 @@
     transform: rotate(0.11deg);
   }
 
-  .wedText{
+  #wedText{
     /* Wed, 22 */
 
     position: absolute;
