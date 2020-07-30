@@ -55,16 +55,14 @@ function obtenerElClimaActual() {
 
       //Actualizacion dentro de los proximos 4 dias.
         const mañana = new Date(datoActual);
-          for ( i = 1; i <= 4; i ++) { 
+          for ( contador = 1; contador <= 4; contador ++) { 
               
-              document.getElementById(`tempMax${i}`).innerHTML = `${parseInt(informacionActual.daily[i].temp.max)}°C`;
-              document.getElementById(`tempMin${i}`).innerHTML = `${parseInt(informacionActual.daily[i].temp.min)}°C`;
+              document.getElementById(`tempMax${contador}`).innerHTML = `${parseInt(informacionActual.daily[contador].temp.max)}°c`;
+              document.getElementById(`tempMin${contador}`).innerHTML = `${parseInt(informacionActual.daily[contador].temp.min)}°c`;
               
               
-              mañana.setDate(datoActual.getDate() + i);//Se actualizan los dias
-              document.getElementById(`date${i}`).innerHTML = `
-                ${mañana.toString().substr(0,4)},
-                ${mañana.toString().substr(7,3)}`
+              mañana.setDate(datoActual.getDate() + contador);//Se actualizan los dias
+              document.getElementById(`date${contador}`).innerHTML = `${mañana.toString().substr(0,4)},${mañana.toString().substr(7,3)}`
               //Recorto los strings para tener la informacion igual que en el diseño web
         }
 
