@@ -1,5 +1,4 @@
-
-
+@media all and (max-device-width: 480px){
   body{
     padding: 0%;
     margin: 0% auto;
@@ -1039,4 +1038,4 @@
     left: 364px;
     top: 670px;
   }
-
+} 
