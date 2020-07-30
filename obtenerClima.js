@@ -31,26 +31,26 @@ function obtenerElClimaActual() {
         document.getElementById("sunnyText").innerHTML = informacionActual.current.weather[0].main; 
 
       //humedad
-      document.getElementById("humidityText1").innerHTML =  `${informacionActual.current.humidity}%`;
+        document.getElementById("humidityText1").innerHTML =  `${informacionActual.current.humidity}%`;
       
       //Presion (pressure)
-      document.getElementById("textPressure").innerHTML = `${parseInt(informacionActual.daily[0].pressure)}mBar`;
+        document.getElementById("textPressure").innerHTML = `${parseInt(informacionActual.daily[0].pressure)}mBar`;
 
       //Vientos (wind)
-      document.getElementById("textWind").innerHTML = `${parseInt(informacionActual.daily[0].wind_speed)}km/h`;
+        document.getElementById("textWind").innerHTML = `${parseInt(informacionActual.daily[0].wind_speed)}km/h`;
 
       //Amanecer (Mañana-Sunrise)
-      const sunriseActual = new Date(informacionActual.daily[0].sunrise);
-      document.getElementById("sunriseHs").innerHTML = `${sunriseActual.getHours()}:${sunriseActual.getMinutes()}`;
+        const sunriseActual = new Date(informacionActual.daily[0].sunrise);
+        document.getElementById("sunriseHs").innerHTML = `${sunriseActual.getHours()}:${sunriseActual.getMinutes()}`;
 
       //Puesta de sol (atardecer-Sunset) se actualiza cada dia (daily)
-      const sunsetActual = new Date(informacionActual.daily[0].sunset * 1000);
-      document.getElementById("sunsetHs").innerHTML = `${sunsetActual.getHours()}:${sunsetActual.getMinutes()}`;
+        const sunsetActual = new Date(informacionActual.daily[0].sunset * 1000);
+        document.getElementById("sunsetHs").innerHTML = `${sunsetActual.getHours()}:${sunsetActual.getMinutes()}`;
       
       
       //Tiempo del dia (Duracion-Daytime) se actualiza cada hora
-      const daytimeActual= new Date(informacionActual.current.dt);
-      document.getElementById("dayTimeHs").innerHTML = `${daytimeActual.getHours()}`;
+        const daytimeActual= new Date(informacionActual.current.dt);
+        document.getElementById("dayTimeHs").innerHTML = `${daytimeActual.getHours()}`;
 
 
       //Actualizacion dentro de los proximos 4 dias.
