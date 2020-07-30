@@ -34,7 +34,7 @@
     width: 83%;
     height: 52%;
     left: 1%;
-    top: 279px;
+    top: 24%;
 
     background: #FFFFFF;
     border-radius: 5%;
@@ -163,7 +163,7 @@
     /* °C */
     position: absolute;
     width: 15%;
-    height: 35%;
+    height: 55%;
     left: 55%;
     top: 14%;
 
@@ -229,7 +229,7 @@
     font-size: 16px;
     line-height: 19px;
     
-    color: #666666;
+    color: #000000;
   }
 
 
@@ -249,7 +249,7 @@
     font-size: 16px;
     line-height: 19px;
     
-    color: #666666;
+    color: #000000;
   }
 
 
@@ -292,7 +292,7 @@
     line-height: 19px;
     letter-spacing: -0.05em;
 
-    color: #444444;
+    color: #000000;
 
   }
 
@@ -744,7 +744,7 @@
     text-align: center;
     letter-spacing: 0.1em;
     
-    color: #999999;
+    color: #000000;
     }
 
   #tempMin1{/* 26°C */
@@ -766,7 +766,7 @@
     text-align: center;
     letter-spacing: 0.1em;
     
-    color: #999999;
+    color: #000000;
   }
   .flechaIzquierdaMiraAbrriba{
 
@@ -866,7 +866,7 @@
     text-align: center;
     letter-spacing: 0.1em;
     
-    color: #999999;
+    color: #000000;
     }
 
   #tempMin2{/* 26°C */
@@ -887,7 +887,7 @@
     text-align: center;
     letter-spacing: 0.1em;
     
-    color: #999999;
+    color: #000000;
   }
 
 
@@ -933,7 +933,7 @@
     text-align: center;
     letter-spacing: 0.1em;
     
-    color: #999999;
+    color: #000000;
     }
 
   #tempMin3{/* 29°C */
@@ -955,7 +955,7 @@
     text-align: center;
     letter-spacing: 0.1em;
     
-    color: #999999;
+    color: #000000;
   }
 
   #date3{
